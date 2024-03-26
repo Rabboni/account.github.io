@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+</head>
+<style>
+    body{
+        background-image: url(img/HD-wallpaper-spots-background-faded-design.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    div{
+        border-radius: 15px;
+        background-color: white;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 2.5%;
+    }
+    .logo-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25px; 
+        border-radius: 30%
+    }
+    .user-name{
+        background-color: white;
+        color: black;
+        font-size: 16px;
+        border-radius: 15px;
+        margin-left: 31%;
+        width: 38%;
+        height: 45px;
+        border-color: grey;
+        margin-bottom: 10px;
+    }
+    .pass-word{
+        background-color: white;
+        color: black;
+        font-size: 16px;
+        border-radius: 15px;
+        margin-left: 31%;
+        width: 38%;
+        height: 45px;
+        border-color: grey;
+        margin-bottom: 10px;
+    }
+    .log-btn{
+        background-color: gray;
+        color: white;
+        font-size: 16px;
+        border-radius: 15px;
+        margin-left: 55%;
+        width: 15%;
+        height: 45px;
+        margin-bottom: 10px;
+        border: none;
+    }
+</style>
+<body>
+    <div>
+        <img class="logo-img" src="img/hand-gesture-v-sign-victory-600nw-1174905205.webp" alt="hand gesture">
+        <h1 style="text-align: center;">Log In.</h1>
+        <p style="margin-top: -1.25%; text-align: center; font-size: 15px;">
+            Enter your details below:
+        </p>
+        <label class="user-name" for="user-name"></label>
+        <br>
+        <input class="user-name" type="email" placeholder="Enter your username" required>
+        <label class="pass-word" for="pass-word"></label>
+        <br>
+        <input class="pass-word" type="password" placeholder="Enter your password" required>
+        <a href="existingUser.html">
+            <button class="log-btn">
+                Login
+            </button>
+        </a>
+    </div>
+    
+</body>
+</html>
